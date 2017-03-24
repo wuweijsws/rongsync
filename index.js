@@ -13,14 +13,14 @@ var process = require('process');
 
 // config begin ------------
 const LOCAL_DIR = '/Users/sliu/tmp/ronglog';
-const REMOTE_DIR = 'freekeer@123.56.230.49:/usr/freekeer/ronglogs';
+const REMOTE_DIR = 'freekeer@127.0.0.1:/usr/freekeer/ronglogs';
 // config end -------------
 
 const ZIP_DIR = `${LOCAL_DIR}/zipdir`;
 const LOG_DIR = `${LOCAL_DIR}/logs`;
 
-var appkey = 'k51hidwq182cb';
-var appsecret = 'ipfsMgWf650e1X';
+var appkey = '********';
+var appsecret = '***********';
 
 function pad(num) {
 	if(num>9) {
